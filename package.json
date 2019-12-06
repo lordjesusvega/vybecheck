@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build:dev": "webpack --display-error-details --config webpack.config.js --progress --color",
-    "build:prod": "webpack --env.prod --config webpack.config.js --progress --color",
+    "build": "webpack --env.prod --config webpack.config.js --progress --color",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
